@@ -1,0 +1,31 @@
+- (Base64) là một hệ mã hóa được sử dụng rộng rãi để mã hóa dữ liệu nhị phân. Trong Java 8, Base64 đã được thêm vào API chuẩn thông qua lớp "java.util.Base64".
+
++ (Base64) không phải là một phương pháp mã hóa an toàn cho việc lưu trữ mật khẩu vì nó có thể được giải mã một cách dễ dàng. Thay vào đó, nên sử dụng các thuật toán băm mật khẩu như "bcrypt" hoặc "scrypt". Base64 thường được sử dụng để mã hóa dữ liệu nhị phân để truyền qua các kênh chỉ hỗ trợ nội dung văn bản.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+- (Generics) trong Java là một tính năng giúp lập trình viên có thể chỉ định rõ kiểu dữ liệu mà họ muốn làm việc với một class, một interface hay một phương thức nào đó. Generics được thêm vào ngôn ngữ lập trình Java từ phiên bản Java.
+
++ (Generics) giúp kiểm soát kiểu dữ liệu, giúp lập trình viên dễ dàng bắt lỗi các kiểu dữ liệu không hợp lệ, đồng thời giúp việc tạo và sử dụng các class, interface, method với nhiều kiểu dữ liệu khác nhau trở nên dễ dàng hơn.
+
++ Trong ví dụ Class(MyGeneric), MyGeneric<T> là một lớp generic với T là kiểu tham số. Khi khởi tạo đối tượng của lớp MyGeneric, chỉ cần định kiểu cụ thể cho T, ví dụ Integer hoặc String.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+- Có nhiều thuật toán tìm kiếm khác nhau trong Java, dưới đây là một số thuật toán phổ biến:
+
++ Tìm kiếm tuần tự (Sequential Search): Đây là thuật toán đơn giản nhất trong tất cả các thuật toán tìm kiếm. Trong kiểu tìm kiếm này, một hoạt động tìm kiếm liên tiếp được diễn ra qua tất cả từng phần tử1.
+
++ Tìm kiếm nhị phân (Binary Search): Đây là một thuật toán tìm kiếm xác định vị trí của một giá trị cần tìm trong một mảng đã được sắp xếp1.
+
++ Tìm kiếm tam phân (Ternary Search): Tương tự với thuật toán tìm kiếm nhị phân, Ternary Search - Tìm kiếm tam phân là một kỹ thuật trong khoa học máy tính dùng để tìm kiếm giá trị lớn nhất (maximum) hay nhỏ nhất (minimum) của một unimodal function1.
+
++ Tìm kiếm nội suy (Interpolation Search): Là biến thể cải tiến của Tìm kiếm nhị phân (Binary Search)1.
+
++ Tìm kiếm nhảy (Jump Search): Là một thuật toán tìm kiếm trong đó chúng ta “nhảy” qua các phần tử thay vì đi qua từng phần tử1.
+
++ Mỗi thuật toán có ưu và nhược điểm riêng, và lựa chọn thuật toán phù hợp sẽ phụ thuộc vào yêu cầu cụ thể của bài toán bạn đang giải quyết.
+
++ Trong đoạn mã “Thuật toán Binary Search ” trên, chúng ta sử dụng thuật toán tìm kiếm nhị phân để tìm kiếm một số x trong một mảng đã được sắp xếp. Nếu x có trong mảng, thuật toán sẽ trả về chỉ số của x trong mảng. Nếu không, thuật toán sẽ trả về -1.

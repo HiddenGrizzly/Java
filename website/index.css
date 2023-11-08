@@ -1,0 +1,15 @@
+/* Banner */
+#banner {
+    min-height: 110vh;
+    background-image: url("image/banner.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#banner #bannerText {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: #ffffff;
+}

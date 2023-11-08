@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class GetConnection {
     public static Connection createConnection(){
-        String dbUrl = "jdbc:mySQL://localhost:3306//slot13";
+        String dbUrl = "jdbc:mySQL://localhost:3306/slot13";
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(dbUrl, "root", "");
